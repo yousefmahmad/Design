@@ -1,0 +1,213 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+section{
+    height: 33.33%;
+}
+/*upper section background image needs to be the sections background*/
+.upper {
+    background-image: url('./img/alex-perez-NLUkAA-nDdE-unsplash.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+
+}
+/* nav bar */
+
+ul {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+li {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: white;
+    font-size: 8px;
+    font-weight: lighter;
+}
+
+.Fiji {
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+h1 {
+    align-items: center;
+    font-size: 30px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+p {
+    align-content: center;
+    justify-content: center;
+    font-size: 12px;
+    display: flex;
+    color: white;
+    margin: auto;
+    
+}
+/* Middle Styles */
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    height: 80%;
+    background-color:#FAFAFA;
+}
+.arrow{
+    height: 85%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+}
+.surfer{
+    height: 85%;
+    width: 30%;
+    background-image: url(./img/surfer.png);
+    background-size: cover;
+}
+.facts{
+    height: 85%;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+}
+.fact-title{
+    font-size: 18px;
+    color: black;
+}
+.fact-content{
+    font-size: 14px;
+    color: black;
+}
+.symbol{
+    background-image: url(./img/symbol.png);
+    background-size: cover;
+    height: 44px;
+    width: 100px;
+}
+.lower{
+    display:center;
+}
+h1{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.baw-main-box{
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 80vw;
+    margin: 0 auto;
+}
+.sub-box-1{
+    margin-right: 4px;
+    width: 50%;
+}
+.sub-box-2{
+    margin-left: 4px;
+    width: 50%;
+}
+
+.baw-mainimg1{
+    background-image: url(./Lower-Section-Images/luca-bravo-hFzIoD0F_i8-unsplash.jpg);
+    width: 100%;
+    height: 250px;
+    margin: 4px;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.baw-subimgs{
+    display: flex;
+}
+.baw-subimg1{
+    background-image: url(./Lower-Section-Images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg);
+    height: 125px;
+    width: 50%;
+    margin: 4px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.baw-subimg2{
+    background-image: url(./Lower-Section-Images/milada-vigerova-pQMM63GE7fo-unsplash.jpg);
+    height: 125px;
+    width: 50%;
+    margin: 4px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.baw-mainimg2{
+    background-image: url(./Lower-Section-Images/niko-photos-tGTVxeOr_Rs-unsplash.jpg);
+    height: 250px;
+    width: 100%;
+    margin: 4px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-size: 50px;
+}
+
+.baw-subimg3{
+    background-image: url(./Lower-Section-Images/qingbao-meng-01_igFr7hd4-unsplash.jpg);
+    height: 125px;
+    width: 50%;
+    margin: 4px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.baw-subimg4{
+    background-image: url(./Lower-Section-Images/tim-swaan-eOpewngf68w-unsplash.jpg);
+    height: 125px;
+    width: 50%;
+    margin: 4px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.main-text{
+margin: 0;
+padding-top:25%;
+}
+.sub-text{
+    margin: 0;
+    padding: 25%;
+}
+.lower-header{
+    color: black;
+}
+   
